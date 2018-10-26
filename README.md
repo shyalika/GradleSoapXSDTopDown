@@ -1,6 +1,6 @@
-# Example EJB3, WSDL, XSD and gradle project.
+# Example EJB3, WSDL(Soap), XSD and gradle project.
 
-This project is a simple example to build and deploy a web service with soap and EJB3 technologies built using Gradle. This is intended to be deployed in Jboss 7.1. This example uses both WSDL and XSD schema definitions. There is an even simpler example done using only WSDL at https://github.com/shyalika/GradleSoapTopDown.git
+This project is a simple example to build and deploy a web service with soap and EJB3 technologies built using Gradle and top down approcah. This is intended to be deployed in Jboss 7.1. This example uses both WSDL and XSD schema definitions. There is an even simpler example done using only WSDL at https://github.com/shyalika/GradleSoapTopDown.git
 
 
 1. Checkout the project and navigate to the project folder
