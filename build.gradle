@@ -72,9 +72,6 @@ task wsimport1 {
      def classesDir = "${projectDir}/generated/classes"
      def jaxwsTargetClassesDir = file(classesDir)
             
-     def episodeDir = "${projectDir}/resources/main/META-INF"
-     def jaxbEpisodeDir = file(episodeDir)            
-            
     doLast {
         ant {
             
@@ -90,9 +87,6 @@ task wsimport1 {
 
             ant.jaxwsTargetClassesDir = jaxwsTargetClassesDir
             jaxwsTargetClassesDir.mkdirs()
-            
-            jaxbEpisodeDir.mkdirs()
-            ant.jaxbEpisodeDir = jaxbEpisodeDir            
 
             ant.wsimport(
                     wsdl: "${projectDir}/src/main/resources/META-INF/wsdl/HelloXSD.wsdl",
